@@ -12,6 +12,10 @@ sumeet b karabari@DESKTOP-OMN134D MINGW64 /c/Users
 $ cd f
 bash: cd: f: No such file or directory
 
+
+
+
+
 sumeet b karabari@DESKTOP-OMN134D MINGW64 /c/Users
 $ cd F
 bash: cd: F: No such file or directory
@@ -40,6 +44,24 @@ $ git remote add github https://github.com/Sumeet-Karbhari886/github-slideshow.g
 $ git commit -m "Testing App"
 $ git push github master
 
+if after pushing also the file didnt push up 
+then:
+
+1. cd "F:\Warrior"
+2.$  git init
+3.$  git remote add origin https://github.com/Sumeet-Karbhari886/My_Files.git
+4.$ git remote -v
+5.$ git add .
+6.$  git commit -m "FIrst commit"
+
+7.$  git push origin master
+
+
+
+if we get error after pushing
+1.$ git remote remove origin
+2.$  git remote add origin https://github.com/Sumeet-Karbhari886/My_Files.git
+3.$  git push origin master
 
 
 

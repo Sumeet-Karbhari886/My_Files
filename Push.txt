@@ -1,1 +1,45 @@
-push
+sumeet b karabari@DESKTOP-OMN134D MINGW64 ~/test/message (master)
+$ pwd
+/c/Users/sumeet b karabari/test/message
+
+sumeet b karabari@DESKTOP-OMN134D MINGW64 ~/test/message (master)
+$ cd ../..
+
+sumeet b karabari@DESKTOP-OMN134D MINGW64 ~
+$ cd ..
+
+sumeet b karabari@DESKTOP-OMN134D MINGW64 /c/Users
+$ cd f
+bash: cd: f: No such file or directory
+
+sumeet b karabari@DESKTOP-OMN134D MINGW64 /c/Users
+$ cd F
+bash: cd: F: No such file or directory
+
+sumeet b karabari@DESKTOP-OMN134D MINGW64 /c/Users
+$ cd ..
+
+sumeet b karabari@DESKTOP-OMN134D MINGW64 /c
+$ cd F
+bash: cd: F: No such file or directory
+
+sumeet b karabari@DESKTOP-OMN134D MINGW64 /c
+$ cd ..
+
+sumeet b karabari@DESKTOP-OMN134D MINGW64 /
+$ cd F
+
+sumeet b karabari@DESKTOP-OMN134D MINGW64 /F
+$ cd PUSH
+
+sumeet b karabari@DESKTOP-OMN134D MINGW64 /F/PUSH
+
+$ git init
+$ git add .
+$ git remote add github https://github.com/Sumeet-Karbhari886/github-slideshow.git
+$ git commit -m "Testing App"
+$ git push github master
+
+
+
+
